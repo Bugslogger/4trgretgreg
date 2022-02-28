@@ -1,0 +1,30 @@
+.card-container {
+    min-width: 240px;
+    height: 300px;
+    /* border: 1px solid; */
+    color: var(--clr1);
+    box-shadow: 0 0 10px 0px currentColor, inset 0 0 8px currentColor;
+    max-width: 240px;
+}
+
+.card-head {
+    color: var(--clr1);
+    font-family: font2;
+    font-size: 3em;
+    line-height: 26px;
+    /* letter-spacing: -5px; */
+    text-transform: uppercase;
+    transform: rotateZ(-15deg);
+    /* letter-spacing: 0.1em; */
+    text-shadow: 0 0 .095em hsl(0 0% 100%/.45), 0 0 0.8em currentColor;
+}
+
+.card-text {
+    margin-top: 60px;
+    font-size: 1.1em;
+    line-height: 1.8em;
+    word-spacing: 1.5px;
+    color: var(--clr1);
+    text-shadow: 0 0 1px currentColor;
+    font-family: font4;
+}
