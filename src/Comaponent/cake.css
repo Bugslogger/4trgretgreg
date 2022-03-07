@@ -1,8 +1,9 @@
 #cake {
+    /* border: 1px solid; */
     display: block;
     position: relative;
     margin: 0 auto 0 auto;
-    transform: translateY(-80px);
+    transform: translateY(-25%);
 }
 
 
@@ -12,14 +13,15 @@
 .velas {
     background: #ffffff;
     border-radius: 10px;
-    position: absolute;
+    /* position: absolute; */
+    position: relative;
     top: 355px;
     left: 50%;
     margin-left: -2.4px;
-    margin-top: -8.33333333px;
+    /* margin-top: -1%; */
     width: 5px;
     height: 35px;
-    transform: translateY(-400px);
+    transform: translateY(-500px);
     backface-visibility: hidden;
     animation: in 500ms 6s ease-out forwards;
 }
@@ -97,6 +99,6 @@
 
 @keyframes in {
     to {
-        transform: translateY(0);
+        transform: translateY(-202%);
     }
 }

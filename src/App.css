@@ -127,6 +127,13 @@ span {
     /* filter: blur(1.9em); */
 }
 
+
+/* @media screen and (max-width: 900px) {
+    .ribon {
+        display: grid;
+    }
+} */
+
 @media screen and (max-width: 600px) {
     .strip {
         font-size: 3em;

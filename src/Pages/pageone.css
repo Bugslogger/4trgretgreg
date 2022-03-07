@@ -1,0 +1,10 @@
+.h3-cake-title {
+    color: transparent;
+    /* background-size: text; */
+    font-family: font4;
+    letter-spacing: 1px;
+    background: linear-gradient(to right, var(--clr), var(--clr1));
+    font-size: 4em;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
